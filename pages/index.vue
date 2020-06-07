@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>NUXTJS TEMPLATE</h1>
+    <h1 class="container__text">NUXTJS TEMPLATE</h1>
   </div>
 </template>
 
@@ -14,6 +14,18 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+ .container {
+   height: 100vh;
+   background: hotpink;
+
+    &__text {
+
+      color: gold;
+
+    }
+
+ }
 
 </style>

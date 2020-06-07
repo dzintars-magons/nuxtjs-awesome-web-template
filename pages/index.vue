@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1 class="container__text">NUXTJS TEMPLATE</h1>
+    <button>CLICK ME PLEASE</button>
   </div>
 </template>
 
@@ -19,10 +20,12 @@ export default {
  .container {
    height: 100vh;
    background: $primary-bg;
+   @include flex-center;
 
     &__text {
 
       color: gold;
+      font-size: rem(32px);
 
         @include mobile {
 

@@ -23,12 +23,12 @@ $mixin--baseFontSize: $font-size-base;
 
 // ------------------------------------------
 
-@mixin m-x ($size) {
+@mixin margin-x ($size) {
     margin-right: $size;
     margin-left: $size;
 }
 
-@mixin p-x ($size) {
+@mixin padding-x ($size) {
     padding-right: $size;
     padding-left: $size;
 }

@@ -23,6 +23,11 @@ $mixin--baseFontSize: $font-size-base;
 
 // ------------------------------------------
 
+@mixin max-container-width {
+    max-width: $max-container-width;
+    margin: 0 auto;
+}
+
 @mixin margin-x ($size) {
     margin-right: $size;
     margin-left: $size;

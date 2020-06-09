@@ -21,7 +21,7 @@ export default {
  .container {
    height: 100vh;
    background: $secondary-bg;
-   font-family: $main-font;
+   font-family: $font-family;
 
    @include max-container-width;
 

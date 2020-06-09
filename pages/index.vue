@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 
  .container {
-   height: 100vh;
+   min-height: 100%;
    background: $secondary-bg;
    font-family: $font-family;
 
@@ -32,7 +32,7 @@ export default {
     &__text {
 
       color: purple;
-      font-size: rem(32px);
+      font-size: $h1;
       padding-top: 2rem;
 
 

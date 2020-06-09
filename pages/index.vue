@@ -25,15 +25,16 @@ export default {
 
    @include max-container-width;
 
+   @include desktop-only {
+     background: teal;
+   }
+
     &__text {
 
       color: purple;
       font-size: rem(32px);
       padding-top: 2rem;
 
-      @include range (777px, 1111px) {
-        color: blue;
-      }
 
         
 

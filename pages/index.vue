@@ -32,7 +32,7 @@ export default {
     &__text {
 
       color: purple;
-      font-size: $h1;
+      font-size: $h2;
       padding-top: 2rem;
 
 

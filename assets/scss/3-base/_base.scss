@@ -1,5 +1,7 @@
   html {
     box-sizing: border-box;
+    min-height: 100%;
+    width: 100%;
 
     :focus {
       outline: 0 !important;
@@ -25,7 +27,7 @@
   }
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    line-height: 1.2;
+    line-height: $line-height;
   } 
   
   h1 {

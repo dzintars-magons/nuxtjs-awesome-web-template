@@ -38,8 +38,11 @@ export default {
   ],
   styleResources: {
     
-        scss: ['./assets/scss/1-variables/_variables.scss',
-               './assets/scss/2-mixins/*.scss'
+        scss: [
+          './assets/scss/2-mixins/_px-to-rem-convert.scss',
+          './assets/scss/1-variables/_variables.scss',
+          './assets/scss/2-mixins/_mediaqueries.scss',
+          './assets/scss/2-mixins/_tools.scss'
                ]
         
        },

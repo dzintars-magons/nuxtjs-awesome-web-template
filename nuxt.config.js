@@ -24,6 +24,7 @@ export default {
   */
   css: [
     '@/assets/scss/main.scss',
+    '@/assets/scss/4-grid/bootstrap-grid.css'
   ],
   /*
   ** Plugins to load before mounting the App

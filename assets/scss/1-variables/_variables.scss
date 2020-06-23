@@ -20,7 +20,7 @@ $h5: rem(16);
 $h6: rem(16);
 $p: rem(16);
 
-$line-height: 1.2;
+$line-height: 1.5;
 
 //font weight variables
 $regular:   400;
@@ -34,8 +34,7 @@ $bold:      700;
     =========
 */
 
-$max-container-width: 1140px;
-$container-padding-x: 1rem;
+//Bootstrap Breakpoints INFO
 
 $mobile-end: 575px; 
 //sm
@@ -59,8 +58,10 @@ $large-desktop-start: 1200px;
 
 //Buttons
 
-$button-font-size: 2rem;
+$button-color: gold;
+$button-font-size: 1.6rem;
 $button-padding: 0.5em 1.5em;
+$button-margin: 0;
 
 //Spacing 
 

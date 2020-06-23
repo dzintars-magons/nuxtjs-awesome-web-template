@@ -41,7 +41,7 @@ export default {
    background: $secondary-bg;
    font-family: $font-family;
 
-   @include max-container-width;
+   @include container;
 
    @include desktop-only {
      background: teal;
